@@ -1,0 +1,26 @@
+{
+    'name': 'Hospital Management System',
+    'version': '16.0.1.0.0',
+    'summary': 'Hospital Management',
+    'sequence': -100,
+    'description': """Hospital Management""",
+    'category': 'Pharma',
+    'author': 'aarzookidukan',
+    'maintainer': 'aarzookidukan',
+    'website': 'www.weblyticlabs.com',
+    'license': 'AGPL-3',
+    'depends': [
+        'website_slides',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/menu.xml',
+        'views/patient.xml',
+    ],
+    'demo': [],
+    'qweb': [],
+    'images': ['static/description/banner.jpg'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
